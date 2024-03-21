@@ -1,0 +1,12 @@
+train: C:\Users\hanbin\Desktop\code\yolov5\dataset\train\images
+val: C:\Users\hanbin\Desktop\code\yolov5\dataset\valid\images
+
+nc: 1
+names: ['car']
+
+roboflow:
+  workspace: project-lvtjv
+  project: car_test2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-lvtjv/car_test2/dataset/1
